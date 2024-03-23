@@ -1,0 +1,2 @@
+TS_lenth_divided_by_100:    Average Time: 1.6414s, Average Coverage: 0.604688, Average F1 Score: 0.491712
+Eight:                      Average Time: 1.5865s, Average Coverage: 0.610278, Average F1 Score: 0.463107

@@ -1,0 +1,1 @@
+Average Time: 0.1901s, Average Coverage: 0.492810, Average F1 Score: 0.152971

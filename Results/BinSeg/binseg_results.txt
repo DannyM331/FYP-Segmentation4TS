@@ -1,0 +1,8 @@
+AR      Average Time: 0.0488s, Average Coverage: 0.556976, Average F1 Score: 0.319805
+CLinear Average Time: 0.0213s, Average Coverage: 0.427878, Average F1 Score: 0.111400
+Cosine  Average Time: 0.0832s, Average Coverage: 0.136171, Average F1 Score: 0.172546
+L1      Average Time: 0.0942s, Average Coverage: 0.513020, Average F1 Score: 0.135390
+L2      Average Time: 0.0603s, Average Coverage: 0.499141, Average F1 Score: 0.152707
+Normal  Average Time: 0.0945s, Average Coverage: 0.474785, Average F1 Score: 0.182585
+Rank    Average Time: 0.0477s, Average Coverage: 0.495010, Average F1 Score: 0.173888
+RBF     Average Time: 0.1901s, Average Coverage: 0.492810, Average F1 Score: 0.152971
