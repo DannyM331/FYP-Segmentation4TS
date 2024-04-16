@@ -2,3 +2,4 @@ Eight: Average Time: 0.5045s, Average Coverage: 0.479771, Average F1 Score: 1.69
 Eight: Average Time: 0.5045s, Average Coverage: 0.479771, Average F1 Score: 1.676759
 Eight: Average Time: 0.5045s, Average Coverage: 0.479771, Average F1 Score: 1.602474
 Eight: Average Time: 1.6114s, Average Coverage: 0.604688, Average F1 Score: 0.491712
+Eight: Average Time: 1.3872s, Average Coverage: 0.604600, Average F1 Score: 0.491812
