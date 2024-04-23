@@ -80,6 +80,28 @@ def f_measure(annotations, predictions, margin=5, alpha=0.5, return_PR=False):
         return F, P, R
     return F
 
+# def f_measure(annotations, predictions, margin=5, alpha=0.5, return_PR=False):
+#     Tks = {k + 1: set(annotations[uid]) for k, uid in enumerate(annotations)}
+
+#     X = set(predictions)
+
+#     Tstar = set()
+#     for Tk in Tks.values():
+#         for tau in Tk:
+#             Tstar.add(tau)
+
+#     K = len(Tks)
+
+#     P = len(true_positives(Tstar, X, margin=margin)) / len(X) if len(X) > 0 else 0
+
+#     TPk = {k: true_positives(Tks[k], X, margin=margin) for k in Tks}
+#     R = 1 / K * sum(len(TPk[k]) / len(Tks[k]) for k in Tks) if K > 0 else 0
+
+#     F = P * R / (alpha * R + (1 - alpha) * P) if (alpha * R + (1 - alpha) * P) > 0 else 0
+#     if return_PR:
+#         return F, P, R
+#     return F
+
 
 def overlap(A, B):
     """ Return the overlap (i.e. Jaccard index) of two sets
